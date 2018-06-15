@@ -1,0 +1,264 @@
+   * {
+    margin: 0px;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/*--------------------------------*/
+/* HEADER */
+/*--------------------------------*/
+
+header{
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/books.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/books.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    margin-left: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    
+    transform: translate(-50%, -50%);
+}
+
+/*---main-nav ----*/
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    padding: 10px;
+    margin-left: 10px;
+}
+.list,
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+    margin-left: 10px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.list {
+  color: #fff;
+    font-size: 120%;
+   
+    /*---Secrets to alogn text and icons--*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;   
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    /*---Secrets to alogn text and icons--*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;   
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}
+
+/*--------------------------------*/
+/* FOOTER */
+/*--------------------------------*/
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+.social-links {
+    list-style: none;
+    float: right;
+}
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition:color 0.2s;
+    transition:color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.fb,
+.tw,
+.gp,
+.in {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fb:hover {
+    color: #3b5998;
+}
+.tw:hover {
+    color: #00aced;
+}
+.gp:hover {
+    color: #dd4b39;
+}
+.in:hover {
+    color: #517fa4;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.data {
+    margin-left: 10px;
+    
+}
+
+.fp {
+    margin-bottom: 0 px;
+}
+
+
+.line {
+    
+}
+
+
+.clear {
+    color: #e67e22;
+    background-color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 50px; 
+     border-radius: 20px solid pink;
+}
+
+.button {
+    background-color: #e67e22;
+    font-size: 50px; 
+     margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn btn-primary {
+    background-color: #e67e22;
+    font-size: 50px; 
+     margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.shlok {
+    margin-bottom: 0px;
+}
+
+.sections {
+    text-decoration: underline;
+    color: #000;
+    margin-bottom: 10px;
+} 
+
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+a:hover {
+    text-decoration: underline;
+    color: #e67322;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
